@@ -7,11 +7,11 @@ import ContactUs from './components/ContactUs';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+       
         <Home/>
         <AboutUs/>
         <ContactUs/>
-      </header>
+      
     </div>
   );
 }
