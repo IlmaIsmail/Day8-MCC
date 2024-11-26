@@ -10,6 +10,16 @@ function App() {
     <div className="App">
        
         <Router>
+            <nav>
+               
+                 <Link to='/home'>Home</Link><br/>
+                 <Link to='/about'>About Us</Link><br/>
+                 <Link to='/contact'>Contact Us</Link> <br/>
+               
+            </nav>
+
+
+
           <Routes>
             <Route path='/home' element={<Home/>}/>
             <Route path='/about' element={<AboutUs/>}/>
